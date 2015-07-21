@@ -1,5 +1,6 @@
 {
     "name": "root/symfony.adnroot.ro",
+    "description": "This project is used for learning and experimenting with Symfony.",
     "license": "proprietary",
     "type": "project",
     "autoload": {

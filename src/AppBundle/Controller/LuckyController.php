@@ -12,6 +12,7 @@ class LuckyController extends Controller
 {
     /**
      * @Route("/lucky/number/{count}")
+     * @Method("GET")
      */
     public function numberAction($count)
     {
@@ -29,6 +30,7 @@ class LuckyController extends Controller
 
     /**
      * @Route("/api/lucky/number")
+     * @Method("GET")
      */
     public function apiNumberAction()
     {

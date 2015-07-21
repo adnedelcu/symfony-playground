@@ -1,0 +1,15 @@
+{# app/Resources/TwigBundle/views/Exception/error404.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>It's not you. It's us.</h1>
+
+    {# example security usage, see below #}
+    {% if app.user and is_granted('IS_AUTHENTICATED_FULLY') %}
+        {# ... #}
+    {% endif %}
+
+    <p>
+        There was a problem while processing your request. We've dispatched a team of trained monkeys to find and fix the problem. Bear with us. You should <a href="{{ path('homepage') }}">return to the homepage</a>.
+    </p>
+{% endblock %}
